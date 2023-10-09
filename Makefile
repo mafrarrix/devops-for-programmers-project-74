@@ -25,4 +25,5 @@ build:
 push:
 	docker-compose push
 
-.PHONY: ci setup-env install-dependencies dev prod test build push
+.PHONY:
+	 ci setup-env install-dependencies dev prod test build push
