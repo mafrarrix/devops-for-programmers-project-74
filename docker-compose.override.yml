@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: dockerfile
+    image: local/devops-for-programmers-project-74:latest
+    command: npm run dev
+    volumes:
+      - ./app:/app
+    ports:
+      - "8080:8080"
