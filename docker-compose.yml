@@ -4,4 +4,4 @@ services:
     build:
       context: .
       dockerfile: dockerfile
-    image: local/devops-for-programmers-project-74:latest
+    image: mafrarrix/devops-for-programmers-project-74:latest
