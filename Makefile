@@ -6,3 +6,5 @@ dbuild:
 
 dpush:
 	docker push mafrarrix/devops-for-programmers-project-74:latest
+
+.PHONY: ci setup-env install-dependencies dev prod test build push

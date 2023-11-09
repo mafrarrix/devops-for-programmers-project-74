@@ -1,7 +1,7 @@
 FROM node:14.18.1
 WORKDIR /app
 
-# Важно для кеширования слоев
+# Important for layer caching
 COPY app/package.json package.json
 COPY app/package-lock.json package-lock.json
 
