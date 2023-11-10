@@ -3,5 +3,5 @@ services:
   app:
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     image: mafrarrix/devops-for-programmers-project-74:latest

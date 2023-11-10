@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: dockerfile.production
+      dockerfile: Dockerfile.production
     command: npm run dev
     ports:
       - "8080:8080"
