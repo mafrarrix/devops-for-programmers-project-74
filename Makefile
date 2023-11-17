@@ -6,6 +6,15 @@ compose-build:
 
 compose-push:
 	docker push mafrarrix/devops-for-programmers-project-74:latest
+
+ci:
+	docker-compose -f docker-compose.yml up --abort-on-container-exit
+
+setup-env:
+	test -f .env || cp .env.example .env
+
+install-dependencies:
+	docker-compose run --rm app npm install
 	
 up:
 	docker-compose up
