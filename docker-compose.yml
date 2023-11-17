@@ -3,7 +3,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.production
     image: mafrarrix/devops-for-programmers-project-74:latest
     ports:
       - ${PORT_HTTP:-8080}:8080
