@@ -35,7 +35,7 @@ The Makefile provides convenient commands for preparing and running the project.
 The Docker image for this project is hosted on Docker Hub. You can pull the latest version using the following command:
 
 
-docker pull staceynik/devops-for-programmers-project-74:latest
+docker pull mafrarrix/devops-for-programmers-project-74:latest
 
 
 ## License
