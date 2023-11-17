@@ -41,5 +41,6 @@ docker pull mafrarrix/devops-for-programmers-project-74:latest
 ## License
 
 This project is licensed under the MIT License.
+
 [Screencast from 17-11-2023 22:24:40.webm](https://github.com/mafrarrix/devops-for-programmers-project-74/assets/84633068/fc7d5bbf-3ab7-48fa-a8d0-eef8fa123ea7)
 
