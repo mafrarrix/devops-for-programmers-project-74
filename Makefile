@@ -1,10 +1,10 @@
 compose-up:
 	docker-compose -f docker-compose.yml up --abort-on-container-exit
 
-compose-build:
+build:
 	docker build -t mafrarrix/devops-for-programmers-project-74:latest .
 
-compose-push:
+push:
 	docker push mafrarrix/devops-for-programmers-project-74:latest
 
 ci:
@@ -16,22 +16,22 @@ setup-env:
 install-dependencies:
 	docker-compose run --rm app npm install
 	
-up:
+compose-up:
 	docker-compose up
 
-down:
+compose-down:
 	docker-compose down
 
-dev:
+compose-dev:
 	docker-compose up -d
 
-test:
+compose-test:
 	docker-compose -f docker-compose.yml up --abort-on-container-exit
 
-build:
+compose-build:
 	docker-compose build
 
-push:
+compose-push:
 	docker-compose push
 
-.PHONY: ci setup-env install-dependencies dev prod test build push
+.PHONY: ci setup-env install-dependencies compose-dev prod test compose-build compose-push
