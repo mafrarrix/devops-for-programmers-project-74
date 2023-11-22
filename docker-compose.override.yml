@@ -4,9 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command:
-      - npm start 
-      - npm run dev 
+    command: npm start
     ports:
       - "8080:8080"
     volumes:
