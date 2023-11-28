@@ -19,16 +19,16 @@ To run this project, you need to have the following software installed:
 3. Create a `.env` file with the required environment variables. You can use the provided `.env.example` as a template.
 4. Install project dependencies by running the following command: `make install-dependencies`.
 5. Build the containers using Docker Compose: `make build`
-5. Build and start the containers using Docker Compose: `make up`.
+5. Build and start the containers using Docker Compose: `make compose-up`.
 6. Access the application at `http://localhost:8080`.
 
 ## Makefile commands:
 
 The Makefile provides convenient commands for preparing and running the project. Here are some examples:
-- Run the project in development mode: `make dev`
-- Build and start the containers: `make up`
-- Stop and remove the containers: `make down`
-- Run tests: `make test`
+- Run the project in development mode: `make compose-dev`
+- Build and start the containers: `make compose-up`
+- Stop and remove the containers: `make compose-down`
+- Run tests: `make compose-test`
 
 ## Docker Image
 
